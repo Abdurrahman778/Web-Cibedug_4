@@ -87,12 +87,9 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 24px 0;
-  background: rgba(103, 176, 209, 0.8);
+  background: rgb(103, 176, 209);
 }
 
-#header.header-transparent {
-  background: transparent;
-}
 
 #header.header-scrolled {
   background: rgba(55, 142, 181, 0.9);

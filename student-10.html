@@ -1,96 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Section</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- AOS CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-  <style>
-    body {
-        overflow-x: hidden;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siswa X</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="assets/img/logo2.png" rel="icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">  -->
 
-    .team-section .card {
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .team-section img {
-      border-radius: 10px 10px 0 0;
-    }
-  </style>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        .team-section .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-section img {
+            border-radius: 10px 10px 0 0;
+        }
+
+        .team-section {
+            padding-top: 80px;
+            /* Sesuaikan dengan tinggi navbar */
+        }
+    </style>
 </head>
-<body>
-  <div class="container team-section my-5">
-    <h2 class="text-center mb-4">Siswa Kelas X</h2>
-    <p class="text-center mb-5">
-        Info mengenai murid kelas X di Rayon Cibedug 4
-    </p>
-    <div class="row">
-      <!-- 36 Cards -->
-      <!-- Card 1 -->
-      <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">Member 1</h5>
-            <p class="card-text">Full Stack Developer</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">Member 2</h5>
-            <p class="card-text">Back End Developer</p>
-          </div>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">Member 3</h5>
-            <p class="card-text">UI/UX Designer</p>
-          </div>
-        </div>
-      </div>
-      <!-- Duplicate structure to create 36 cards -->
-      <!-- Paste the above structure for cards 4 to 36 -->
-      <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">Member 4</h5>
-            <p class="card-text">Frontend Developer</p>
-          </div>
-        </div>
-      </div>
-      <!-- Add remaining cards up to Member 36 here -->
-      <!-- Total of 36 cards -->
-    </div>
-  </div>
 
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
-  <!-- AOS JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    // Initialize AOS
-    AOS.init({
-      duration: 1200, // Durasi animasi lebih panjang
-      easing: "ease-in-out", // Gerakan lebih halus
-      offset: 120, // Jarak sebelum animasi dimulai
-      once: true // Animasi hanya berjalan sekali
-    });
-  </script>
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between position-relative">
+
+            <div class="logo">
+                <h1 class="text-light"><a href="index.html"><span>CIBFOUR</span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#about">Keyakinan Ku</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#services">Jadwal Piket</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#portfolio">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#team">Prestasi</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Siswa
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" style="color: black;" href="/student-10.html">Kelas 10</a>
+                                <a class="dropdown-item" style="color: black;" href="/student-11.html">Kelas 11</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/index.html#contact">Maps</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header>
+    <div class="container team-section my-5">
+        <h2 class="text-center mb-4">Siswa Kelas X</h2>
+        <p class="text-center mb-5">
+            Info mengenai murid kelas X di Rayon Cibedug 4
+        </p>
+        <div class="row">
+            <!-- 36 Cards -->
+            <!-- Card 1 -->
+            <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Member 1</h5>
+                        <p class="card-text">Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Member 2</h5>
+                        <p class="card-text">Back End Developer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Member 3</h5>
+                        <p class="card-text">UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Duplicate structure to create 36 cards -->
+            <!-- Paste the above structure for cards 4 to 36 -->
+            <div class="col-md-4 col-lg-3 mb-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Team Member" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Member 4</h5>
+                        <p class="card-text">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add remaining cards up to Member 36 here -->
+            <!-- Total of 36 cards -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1200, // Durasi animasi lebih panjang
+            easing: "ease-in-out", // Gerakan lebih halus
+            offset: 120, // Jarak sebelum animasi dimulai
+            once: true // Animasi hanya berjalan sekali
+        });
+    </script>
 </body>
+
 </html>
